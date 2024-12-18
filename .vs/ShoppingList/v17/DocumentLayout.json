@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\masta\\source\\repos\\ShoppingList\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{80C37228-DC88-49F8-9674-1990EBB7E2E5}|ShoppingList\\ShoppingList.csproj|c:\\users\\masta\\source\\repos\\shoppinglist\\shoppinglist\\views\\sortedproducts.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80C37228-DC88-49F8-9674-1990EBB7E2E5}|ShoppingList\\ShoppingList.csproj|solutionrelative:shoppinglist\\views\\sortedproducts.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C37228-DC88-49F8-9674-1990EBB7E2E5}|ShoppingList\\ShoppingList.csproj|c:\\users\\masta\\source\\repos\\shoppinglist\\shoppinglist\\views\\sortedproducts.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{80C37228-DC88-49F8-9674-1990EBB7E2E5}|ShoppingList\\ShoppingList.csproj|solutionrelative:shoppinglist\\views\\sortedproducts.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C37228-DC88-49F8-9674-1990EBB7E2E5}|ShoppingList\\ShoppingList.csproj|c:\\users\\masta\\source\\repos\\shoppinglist\\shoppinglist\\views\\productview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80C37228-DC88-49F8-9674-1990EBB7E2E5}|ShoppingList\\ShoppingList.csproj|solutionrelative:shoppinglist\\views\\productview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C37228-DC88-49F8-9674-1990EBB7E2E5}|ShoppingList\\ShoppingList.csproj|c:\\users\\masta\\source\\repos\\shoppinglist\\shoppinglist\\views\\mainlistpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80C37228-DC88-49F8-9674-1990EBB7E2E5}|ShoppingList\\ShoppingList.csproj|solutionrelative:shoppinglist\\views\\mainlistpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C37228-DC88-49F8-9674-1990EBB7E2E5}|ShoppingList\\ShoppingList.csproj|c:\\users\\masta\\source\\repos\\shoppinglist\\shoppinglist\\views\\mainlistpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{80C37228-DC88-49F8-9674-1990EBB7E2E5}|ShoppingList\\ShoppingList.csproj|solutionrelative:shoppinglist\\views\\mainlistpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\masta\\source\\repos\\ShoppingList\\ShoppingList\\Views\\ProductView.xaml.cs",
+              "RelativeDocumentMoniker": "ShoppingList\\Views\\ProductView.xaml.cs",
+              "ToolTip": "C:\\Users\\masta\\source\\repos\\ShoppingList\\ShoppingList\\Views\\ProductView.xaml.cs",
+              "RelativeToolTip": "ShoppingList\\Views\\ProductView.xaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAxwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T19:22:58.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SortedProducts.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\masta\\source\\repos\\ShoppingList\\ShoppingList\\Views\\SortedProducts.xaml.cs",
+              "RelativeDocumentMoniker": "ShoppingList\\Views\\SortedProducts.xaml.cs",
+              "ToolTip": "C:\\Users\\masta\\source\\repos\\ShoppingList\\ShoppingList\\Views\\SortedProducts.xaml.cs",
+              "RelativeToolTip": "ShoppingList\\Views\\SortedProducts.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T13:17:02.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SortedProducts.xaml",
+              "DocumentMoniker": "C:\\Users\\masta\\source\\repos\\ShoppingList\\ShoppingList\\Views\\SortedProducts.xaml",
+              "RelativeDocumentMoniker": "ShoppingList\\Views\\SortedProducts.xaml",
+              "ToolTip": "C:\\Users\\masta\\source\\repos\\ShoppingList\\ShoppingList\\Views\\SortedProducts.xaml",
+              "RelativeToolTip": "ShoppingList\\Views\\SortedProducts.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-18T13:13:02.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainListPage.xaml",
+              "DocumentMoniker": "C:\\Users\\masta\\source\\repos\\ShoppingList\\ShoppingList\\Views\\MainListPage.xaml",
+              "RelativeDocumentMoniker": "ShoppingList\\Views\\MainListPage.xaml",
+              "ToolTip": "C:\\Users\\masta\\source\\repos\\ShoppingList\\ShoppingList\\Views\\MainListPage.xaml",
+              "RelativeToolTip": "ShoppingList\\Views\\MainListPage.xaml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAQwFoAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-17T17:39:09.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainListPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\masta\\source\\repos\\ShoppingList\\ShoppingList\\Views\\MainListPage.xaml.cs",
+              "RelativeDocumentMoniker": "ShoppingList\\Views\\MainListPage.xaml.cs",
+              "ToolTip": "C:\\Users\\masta\\source\\repos\\ShoppingList\\ShoppingList\\Views\\MainListPage.xaml.cs",
+              "RelativeToolTip": "ShoppingList\\Views\\MainListPage.xaml.cs",
+              "ViewState": "AgIAAJ0AAAAAAAAAAAAmwNgAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T19:30:24.386Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
