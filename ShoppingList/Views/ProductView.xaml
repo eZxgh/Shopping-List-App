@@ -28,7 +28,7 @@
                        FontSize="12" Style="{StaticResource ProductTextStyle}" />
                 <Label Text="{Binding Quantity, StringFormat='Ilość: {0}'}" 
                        FontSize="12" Style="{StaticResource ProductTextStyle}" />
-                <Label Text="{Binding Category, StringFormat='Kategoria: {0}'}" 
+                <Label Text="{Binding CategoryName, StringFormat='Kategoria: {0}'}" 
                        FontSize="12" Style="{StaticResource ProductTextStyle}" />
             </StackLayout>
 

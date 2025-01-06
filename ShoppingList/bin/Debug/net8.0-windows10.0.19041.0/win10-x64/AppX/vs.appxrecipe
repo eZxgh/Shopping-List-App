@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\masta\source\repos\ShoppingList\ShoppingList\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-12-18T19:47:20.033</Modified>
+      <Modified>2025-01-06T16:07:40.637</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\masta\source\repos\ShoppingList\ShoppingList\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-12-18T12:40:48.604</Modified>
+      <Modified>2024-12-27T23:38:36.491</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\masta\source\repos\ShoppingList\ShoppingList\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ShoppingList.runtimeconfig.json">
       <PackagePath>ShoppingList.runtimeconfig.json</PackagePath>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\masta\source\repos\ShoppingList\ShoppingList\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ShoppingList.dll">
       <PackagePath>ShoppingList.dll</PackagePath>
-      <Modified>2024-12-18T19:47:19.745</Modified>
+      <Modified>2025-01-06T16:07:39.658</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\masta\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>ShoppingList.exe</PackagePath>
-      <Modified>2024-12-18T19:47:19.749</Modified>
+      <Modified>2025-01-06T16:07:39.730</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\masta\source\repos\ShoppingList\ShoppingList\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -288,7 +288,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\masta\source\repos\ShoppingList\ShoppingList\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ShoppingList.deps.json">
       <PackagePath>ShoppingList.deps.json</PackagePath>
-      <Modified>2024-12-18T12:40:48.410</Modified>
+      <Modified>2024-12-27T23:38:36.264</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\masta\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.34\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>

@@ -180,3 +180,4 @@ C:\Users\masta\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10
 C:\Users\masta\source\repos\ShoppingList\ShoppingList\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\CommunityToolkit.Maui.dll
 C:\Users\masta\source\repos\ShoppingList\ShoppingList\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\CommunityToolkit.Maui.Core.dll
 C:\Users\masta\source\repos\ShoppingList\ShoppingList\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\System.Speech.dll
+C:\Users\masta\source\repos\ShoppingList\ShoppingList\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\ShoppingList.sourcelink.json

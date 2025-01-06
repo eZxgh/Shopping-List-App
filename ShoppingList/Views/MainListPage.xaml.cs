@@ -26,9 +26,9 @@ public partial class MainListPage : ContentPage
         string name = productTitle.Text;
         string unit = productUnit.Text;
         string quantityText = productQuantity.Text;
-        string category = productCategory.Text;
+        string categoryName = productCategory.Text;
 
-        if (string.IsNullOrWhiteSpace(name) || string.IsNullOrWhiteSpace(unit) || string.IsNullOrWhiteSpace(quantityText) || string.IsNullOrWhiteSpace(category))
+        if (string.IsNullOrWhiteSpace(name) || string.IsNullOrWhiteSpace(unit) || string.IsNullOrWhiteSpace(quantityText) || string.IsNullOrWhiteSpace(categoryName))
         {
             DisplayAlert("Błąd", "Wszystkie pola muszą być wypełnione.", "OK");
             return;
@@ -46,31 +46,40 @@ public partial class MainListPage : ContentPage
             return;
         }
 
-        if (int.TryParse(name, out _) || int.TryParse(unit, out _) || int.TryParse(category, out int _))
+        if (int.TryParse(name, out _) || int.TryParse(unit, out _) || int.TryParse(categoryName, out int _))
         {
-            DisplayAlert("Błąd", "Nazwa,jednostka i kategoria nie mogą być liczbami.", "OK");
+            DisplayAlert("Błąd", "Nazwa, jednostka i kategoria nie mogą być liczbami.", "OK");
             return;
         }
 
         if (BindingContext is Product product)
         {
+            var category = CategoryViewModel.Category.Categories
+                .FirstOrDefault(c => c.CategoryName.Equals(categoryName, StringComparison.OrdinalIgnoreCase));
 
-            productTitle.Text = string.Empty;
-            productUnit.Text = string.Empty;
-            productQuantity.Text = string.Empty;
-            productCategory.Text = string.Empty;
+            if (category == null)
+            {
+                category = new CategoryModel { CategoryName = categoryName };
+                CategoryViewModel.Category.Categories.Add(category);
+            }
 
             var newProduct = new ProductModel
             {
                 Name = name,
                 Unit = unit,
                 Quantity = quantity,
-                Category = category
+                CategoryName = category.CategoryName 
             };
 
-            product.Products.Add(newProduct);
+            category.Products.Add(newProduct); 
+            product.Products.Add(newProduct);  
 
-            saveProducts();
+            productTitle.Text = string.Empty;
+            productUnit.Text = string.Empty;
+            productQuantity.Text = string.Empty;
+            productCategory.Text = string.Empty;
+
+            saveProducts(); 
             RefreshProductsView();
         }
     }
@@ -134,7 +143,6 @@ public partial class MainListPage : ContentPage
             }
         }
     }
-
     private void OnIncrement_Clicked(ProductModel model)
     {
         model.Quantity += 1;

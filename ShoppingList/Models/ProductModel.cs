@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel;
+using ShoppingList.Models;
 
 namespace ShoppingList.Models
 {
@@ -6,10 +7,10 @@ namespace ShoppingList.Models
     {
         public string Name { get; set; }
         public string Unit { get; set; }
-        public string Category { get; set; }
+
+        public string CategoryName { get; set; }  
 
         private bool _isPurchased;
-
         public bool IsPurchased
         {
             get => _isPurchased;
@@ -22,8 +23,8 @@ namespace ShoppingList.Models
                 }
             }
         }
-        private int _Quantity;
 
+        private int _Quantity;
         public int Quantity
         {
             get => _Quantity;

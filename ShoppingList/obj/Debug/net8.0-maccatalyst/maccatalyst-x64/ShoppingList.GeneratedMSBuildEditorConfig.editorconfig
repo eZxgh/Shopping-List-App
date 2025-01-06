@@ -46,6 +46,18 @@ build_metadata.AdditionalFiles.ManifestResourceName = ShoppingList.Resources.Sty
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
+[C:/Users/masta/source/repos/ShoppingList/ShoppingList/Views/CategoryAdd.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ShoppingList.Views.CategoryAdd.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\CategoryAdd.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\CategoryAdd.xaml
+
+[C:/Users/masta/source/repos/ShoppingList/ShoppingList/Views/CategoryView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ShoppingList.Views.CategoryView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\CategoryView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\CategoryView.xaml
+
 [C:/Users/masta/source/repos/ShoppingList/ShoppingList/Views/MainListPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ShoppingList.Views.MainListPage.xaml

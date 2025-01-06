@@ -18,5 +18,15 @@
             Title="Sorted Products"
             ContentTemplate="{DataTemplate views:SortedProducts}"
             Route="MainPage" />
+        
+        <ShellContent
+            Title="Category View"
+            ContentTemplate="{DataTemplate views:CategoryView}"
+            Route="MainPage" />
+
+        <ShellContent
+            Title="Add Category"
+            ContentTemplate="{DataTemplate views:CategoryAdd}"
+            Route="MainPage" />
     </TabBar>
 </Shell>
